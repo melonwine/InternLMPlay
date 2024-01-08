@@ -125,7 +125,7 @@ streamlit run web_demo.py --server.address 127.0.0.1 --server.port 6006
 ssh -CNg -L 6006:127.0.0.1:6006 root@ssh.intern-ai.org.cn -p 33090
 ```
 
-    在浏览器中打开http://127.0.0.1:6006页面，此时模型开始加载。在加载完模型之后，就可以与InternLM-Chat-7B进行对话了。体验结束后用Ctrl+C终止命令运行以释放显卡资源。
+    在浏览器中打开 http://127.0.0.1:6006 页面，此时模型开始加载。在加载完模型之后，就可以与InternLM-Chat-7B进行对话了。体验结束后用Ctrl+C终止命令运行以释放显卡资源。
 
 ## 3. Lagent智能体工具调用
 
@@ -377,7 +377,7 @@ if __name__ == '__main__':
 streamlit run /root/code/lagent/examples/react_web_demo.py --server.address 127.0.0.1 --server.port 6006
 ```
 
-    继续运行前面提到的SSH端口转发，在本地浏览器打开http://127.0.0.1:6006。在Web页面的模型选择里选internlm，等待模型加载完成后就可以输入一些数学问题来测试了。InternLM-Chat-7B模型会理解题意并生成解题的Python代码，Lagent调度送入Python代码解释器求出该问题的解。
+    继续运行前面提到的SSH端口转发，在本地浏览器打开 http://127.0.0.1:6006 。在Web页面的模型选择里选internlm，等待模型加载完成后就可以输入一些数学问题来测试了。InternLM-Chat-7B模型会理解题意并生成解题的Python代码，Lagent调度送入Python代码解释器求出该问题的解。
 
     体验结束后用Ctrl+C终止命令运行以释放显卡资源。
 
@@ -432,7 +432,7 @@ python examples/web_demo.py  \
     --port 6006
 ```
 
-    在本地终端执行上面提到的SSH端口转发后，在浏览器打开http://127.0.0.1:6006，等待模型加载后即可体验图文理解创作。
+    在本地终端执行上面提到的SSH端口转发后，在浏览器打开 http://127.0.0.1:6006 ，等待模型加载后即可体验图文理解创作。
 
 ## 5. 其他
 
