@@ -444,7 +444,7 @@ print(result_2)
 
 ##### 5.5 Web部署
 
-    可以用Gradio框架将上述功能部署到网页，方便测试与使用。在/root/data/internlm_langchain目录下新建文件run_gradio.py，内容如下：
+    可以用Gradio框架将上述功能部署到网页，方便测试与使用。在/root/code/internlm_langchain目录下新建文件run_gradio.py，内容如下：
 
 ```py
 from langchain.vectorstores import Chroma
