@@ -146,7 +146,7 @@ pip install markdown==3.3.7
 pip install -U huggingface_hub
 # 设置Hugging Face镜像
 export HF_ENDPOINT='https://hf-mirror.com'
-# 下载到
+# 下载模型
 huggingface-cli download --resume-download sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2 --local-dir /root/model/ailab/sentence-transformer
 ```
 
