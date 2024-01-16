@@ -17,8 +17,9 @@
     训练数据：高质量的对话、问答数据 
 
     没有增量预训练微调模型不够专业，没有指令跟随微调则对话非常笨拙，如下图所示。
-<img title="" src="assets/instruction_tuning.png" alt="" height="300" data-align="center">
-
+<div align="center">
+  <img title="" src="assets/instruction_tuning.png" alt="" height="300">
+</div>
     将两种微调结合可以达到比原模型增加领域知识并且回答顺畅的效果。
 
 ![](assets/finetune.png)
@@ -56,13 +57,13 @@
 ### 1.3 (Q)LoRA
 
     LoRA是大模型的低阶适应，微调时很方便，不需要大量显存。LoRA在原模型里增加一个旁路，如下图所示。原模型参数锁定，只训练参数较少的的A和B矩阵。
-
-<img src="assets/finetune2.png" height="300" title="" alt="" data-align="center">
-
+<div align="center">
+  <img src="assets/finetune2.png" height="300" title="" alt="">
+</div>
     下图是全参数微调、LoRA微调和QLoRA微调的对比。
-
-<img src="assets/lora_compare.png" height="400" title="" alt="" data-align="center">
-
+<div align="center">
+  <img src="assets/lora_compare.png" height="400" title="" alt="" align="center">
+</div>
 ## 2. XTuner介绍
 
     XTuner是一个轻量级微调大语言模型的工具库，支持在消费级显卡上微调大语言模型。对于70亿参数量，微调所需的最小显存仅为**8GB**。它支持[多种大语言模型和数据集](https://github.com/InternLM/xtuner/blob/main/README_zh-CN.md)。下图是一些简介。
