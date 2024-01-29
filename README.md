@@ -8,4 +8,4 @@
 
 5 [note](05/note05.md) [asgmt](05/asgmt05.md)
 
-6 [note](06/note06.md) [asgmt](06/internlm2-chat-7b_ceval_summary.txt)
+6 [note](06/note06.md) [asgmt](06/asgmt06.md)
